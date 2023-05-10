@@ -39,14 +39,14 @@ To initialize your local repository, use this command:
 ------------------------------------------------------
 
 ```bash
-   repo init -u https://github.com/Havoc-OS/android_manifest.git -b eleven
+   repo init -u https://github.com/aoleary/android_manifest_havoc.git -b eleven
 ```
   
 To Sync the source:
 ----------------
 
 ```bash
-  repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
+  repo sync -c --force-sync --no-clone-bundle --no-tags
 ```
 
 
